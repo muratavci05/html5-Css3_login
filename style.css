@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  width: 50%;
+  height: 50%;
+  border: 1px solid;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.imageContainer img {
+  width: 105px;
+  height: 105px;
+}
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelContainer input::placeholder{
+    color: rgb(117, 117, 230);
+    text-align:left;
+    font-size: large;
+}
+
+.userName input {
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.passWord input {
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 40px;
+  display: flex;
+  
+}
+
+.button button {
+  width: 140px;
+  height: 40px;
+  border-radius: 0 20px;
+  cursor: pointer;
+  border: #fff;
+}
+
+.button button:hover {
+  background-color: rgb(235, 195, 77);
+  color: #fff;
+}
